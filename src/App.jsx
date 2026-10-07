@@ -16,9 +16,6 @@ import {
   RotateCcw,
   ZoomIn,
   ZoomOut,
-  Upload,
-  Trash2,
-  Check,
   CheckCircle2,
   Headphones,
   Pause,
@@ -126,7 +123,7 @@ export const FACULTY_MENTOR = {
   id: "richa.mishra@nirmauni.ac.in",
   department: "Department of Humanities & Social Sciences",
   university: "Institute of Technology, Nirma University",
-  image: "Warm Indian Portrait with Pearls.png",
+  image: "/images/richa.png",
   embeddedArtwork: TEAM_PORTRAITS.richa
 };
 
@@ -136,7 +133,7 @@ export const STUDENT_TEAM = [
     id: "23BCE063",
     role: "Research & Historical Content",
     focus: "Archival gazetteer analysis, regional folklore curation, and verifying historical evidence.",
-    image: "Smiling Man in Black Suit.png",
+    image: "/images/dhairya.png",
     embeddedArtwork: TEAM_PORTRAITS.dhairya
   },
   {
@@ -144,7 +141,7 @@ export const STUDENT_TEAM = [
     id: "23BCE068",
     role: "Design & Development",
     focus: "Visual design system, interactive 3D layout, color harmony, and user experience.",
-    image: "Young Man in Green Blazer and Sunglasses.png",
+    image: "/images/dhun.png",
     embeddedArtwork: TEAM_PORTRAITS.dhun
   },
   {
@@ -152,7 +149,7 @@ export const STUDENT_TEAM = [
     id: "23BCE112",
     role: "Technical Architecture & 3D Systems",
     focus: "Three.js procedural lighting engines, audio synthesis, and interactive components.",
-    image: "Professional Indian Man in Black Suit.png",
+    image: "/images/jay.png",
     embeddedArtwork: TEAM_PORTRAITS.jay
   }
 ];
@@ -698,16 +695,16 @@ export const EVOLUTION_VISUALS = {
     title: "Homes & Architecture",
     past: {
       period: "1800 CE — Traditional Pol Courtyard",
-      fileName: "Timber-framed vernacular Pol townhouses built with teakwood columns, open central light-wells (chowk), and deep underground rainwater tanks (tankas) that kept rooms naturally cool..jpg",
-      image: PHOTO_ARTWORKS.polCourtyard,
+      fileName: "1a.jpg",
+      image: "/images/1a.jpg",
       artworkFallback: PHOTO_ARTWORKS.polCourtyard,
       caption: "Timber-framed vernacular Pol townhouses built with teakwood columns, open central light-wells (chowk), and deep underground rainwater tanks (tankas) that kept rooms naturally cool.",
       features: ["Carved Teakwood Brackets", "Cool Underground Rainwater Tanka", "Open Central Courtyard Chowk"]
     },
     present: {
       period: "2026 CE — Modern High-Rise Apartment",
-      fileName: "Modern Residential Towers.jpg",
-      image: PHOTO_ARTWORKS.modernApartment,
+      fileName: "1b.jpg",
+      image: "/images/1b.jpg",
       artworkFallback: PHOTO_ARTWORKS.modernApartment,
       caption: "Reinforced concrete multi-story residential towers fitted with split air-conditioning, elevators, modular balconies, and piped utility lines.",
       features: ["Energy-Efficient Split ACs", "Overhead Polyethylene Tanks", "Gated Security & Elevators"]
@@ -717,16 +714,16 @@ export const EVOLUTION_VISUALS = {
     title: "Kitchens & Water",
     past: {
       period: "1800 CE — Mud Chulha Hearth & Clay Matka",
-      fileName: "Meals cooked over clay hearths fueled by dried babool twigs; fresh drinking water chilled naturally without electricity in porous terracotta pots on the Paniara..jpg",
-      image: PHOTO_ARTWORKS.chulhaHearth,
+      fileName: "2a.jpg",
+      image: "/images/2a.jpg",
       artworkFallback: PHOTO_ARTWORKS.chulhaHearth,
       caption: "Meals cooked over clay hearths fueled by dried babool twigs; fresh drinking water chilled naturally without electricity in porous terracotta pots on the Paniara.",
       features: ["Clay Mud Firewood Hearth", "Porous Terracotta Water Cooling", "Handmade Bell-Metal Utensils"]
     },
     present: {
       period: "2026 CE — Modular Kitchen & Cold Storage",
-      fileName: "Contemporary Modular Kitchen.jpg",
-      image: PHOTO_ARTWORKS.modularKitchen,
+      fileName: "2b.jpg",
+      image: "/images/2b.jpg",
       artworkFallback: PHOTO_ARTWORKS.modularKitchen,
       caption: "Contemporary modular kitchen with piped natural gas (PNG), induction stoves, multi-door frost-free refrigerators, and RO water purification.",
       features: ["Piped Clean Natural Gas (PNG)", "Multi-Stage RO Water Purifier", "Frost-Free Smart Refrigerator"]
@@ -736,16 +733,16 @@ export const EVOLUTION_VISUALS = {
     title: "Textiles & Clothing",
     past: {
       period: "1800 CE — Handspun Khadi & Domestic Pit-Looms",
-      fileName: "Pure hand-spun indigenous tree cotton, woven on domestic pit-looms and colored with natural plant dyes from madder roots, turmeric, and fermented indigo leaves..jpg",
-      image: PHOTO_ARTWORKS.pitLoom,
+      fileName: "3a.jpg",
+      image: "/images/3a.jpg",
       artworkFallback: PHOTO_ARTWORKS.pitLoom,
       caption: "Pure hand-spun indigenous tree cotton, woven on domestic pit-looms and colored with natural plant dyes from madder roots, turmeric, and fermented indigo leaves.",
       features: ["Charkha Handspun Cotton", "Domestic Pit-Loom Weaving", "Naturally Breathable Drapes"]
     },
     present: {
       period: "2026 CE — Modern Apparel & Mixed Blends",
-      fileName: "Everyday Modern Attire.jpg",
-      image: PHOTO_ARTWORKS.modernApparel,
+      fileName: "3b.jpg",
+      image: "/images/3b.jpg",
       artworkFallback: PHOTO_ARTWORKS.modernApparel,
       caption: "Comfortable everyday attire combining denim jeans, cotton-poly blend shirts, breathable sportswear, and ethically produced modern handloom fabrics.",
       features: ["Durable Stretch Denim", "Breathable Cotton-Poly Blends", "Machine Washable Everyday Wear"]
@@ -755,16 +752,16 @@ export const EVOLUTION_VISUALS = {
     title: "Streets & Travel",
     past: {
       period: "1800 CE — Bullock & Camel Carts in Vernacular Streets",
-      fileName: "Handcrafted wooden carts with sturdy iron rims, pack camels, and narrow, shaded walking alleys designed to stay cool in scorching summer afternoons..jpg",
-      image: PHOTO_ARTWORKS.camelCart,
+      fileName: "4a.jpg",
+      image: "/images/4a.jpg",
       artworkFallback: PHOTO_ARTWORKS.camelCart,
       caption: "Handcrafted wooden carts with sturdy iron rims, pack camels, and narrow, shaded walking alleys designed to stay cool in scorching summer afternoons.",
       features: ["Iron-Rimmed Wooden Carts", "Shaded Pedestrian Lanes", "Zero Carbon Footprint"]
     },
     present: {
       period: "2026 CE — Smart Mobility & Clean Rapid Transit",
-      fileName: "Golden-Hour Smart Mobility Metropolis.png",
-      image: PHOTO_ARTWORKS.smartMetropolis,
+      fileName: "4b.png",
+      image: "/images/4b.png",
       artworkFallback: PHOTO_ARTWORKS.smartMetropolis,
       caption: "Air-conditioned elevated metro rail trains, electric two-wheelers, wide ring roads, and fast app-hailed electric cab networks.",
       features: ["Air-Conditioned Metro Rail", "Electric 2-Wheelers & EVs", "Real-Time App Navigation"]
@@ -774,16 +771,16 @@ export const EVOLUTION_VISUALS = {
     title: "Information & Social Ties",
     past: {
       period: "1800 CE — Courtyard Otla Gatherings & Veranda Talks",
-      fileName: "Daily evening gatherings on front house verandas (otlas), conversations at the community well, village messengers, and handwritten family accounts..jpg",
-      image: PHOTO_ARTWORKS.otlaGathering,
+      fileName: "5a.jpg",
+      image: "/images/5a.jpg",
       artworkFallback: PHOTO_ARTWORKS.otlaGathering,
       caption: "Daily evening gatherings on front house verandas (otlas), conversations at the community well, village messengers, and handwritten family accounts.",
       features: ["Face-to-Face Veranda Talks", "Community Well Gatherings", "Handwritten Paper Letters"]
     },
     present: {
       period: "2026 CE — High-Speed Fiber & Digital Citizen Life",
-      fileName: "India Connected_ Digital Life in Every Corner.png",
-      image: PHOTO_ARTWORKS.digitalLife,
+      fileName: "5b.png",
+      image: "/images/5b.png",
       artworkFallback: PHOTO_ARTWORKS.digitalLife,
       caption: "High-speed optical fiber internet, instant UPI barcode payments for everyday tea stalls, video calls with distant family, and digital citizen services.",
       features: ["Instant QR-Code UPI Payments", "High-Definition Video Calling", "5G Cloud Connectivity"]
@@ -1401,73 +1398,6 @@ export default function App() {
   const [diurnalIndex, setDiurnalIndex] = useState(1);
   const [evolutionCategory, setEvolutionCategory] = useState('home');
 
-  const [userLoadedImages, setUserLoadedImages] = useState(() => {
-    try {
-      const saved = localStorage.getItem('everyday_indian_saved_photos');
-      return saved ? JSON.parse(saved) : {};
-    } catch (e) {
-      console.warn('Could not read saved photos from storage', e);
-      return {};
-    }
-  });
-
-  const [uploadFeedback, setUploadFeedback] = useState(null);
-
-  const handleUploadImageFromPC = useCallback((file, slotKey) => {
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      const img = new Image();
-      img.onload = () => {
-        const canvas = document.createElement('canvas');
-        let width = img.width;
-        let height = img.height;
-        const maxDim = 1200;
-        if (width > maxDim || height > maxDim) {
-          if (width > height) {
-            height = Math.round((height * maxDim) / width);
-            width = maxDim;
-          } else {
-            width = Math.round((width * maxDim) / height);
-            height = maxDim;
-          }
-        }
-        canvas.width = width;
-        canvas.height = height;
-        const ctx = canvas.getContext('2d');
-        ctx.drawImage(img, 0, 0, width, height);
-        const dataUrl = canvas.toDataURL('image/jpeg', 0.88);
-
-        setUserLoadedImages((prev) => {
-          const next = { ...prev, [slotKey]: dataUrl };
-          try {
-            localStorage.setItem('everyday_indian_saved_photos', JSON.stringify(next));
-          } catch (storageErr) {
-            console.warn('Storage limit reached; image held in session memory', storageErr);
-          }
-          return next;
-        });
-
-        setUploadFeedback(slotKey);
-        setTimeout(() => setUploadFeedback(null), 3000);
-      };
-      img.src = e.target.result;
-    };
-    reader.readAsDataURL(file);
-  }, []);
-
-  const handleRemoveSavedImage = useCallback((slotKey) => {
-    setUserLoadedImages((prev) => {
-      const next = { ...prev };
-      delete next[slotKey];
-      try {
-        localStorage.setItem('everyday_indian_saved_photos', JSON.stringify(next));
-      } catch (err) {
-        console.warn(err);
-      }
-      return next;
-    });
-  }, []);
 
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [audioLabel, setAudioLabel] = useState('');
@@ -2104,7 +2034,7 @@ export default function App() {
                 Cultural Evolution: 1800 vs 2026
               </h1>
               <p className="text-[#B8B2A6] text-xs md:text-sm max-w-2xl mt-1">
-                Visualizing how ordinary Indian life shifted across 200+ years. Compare historical records directly with modern life. You can also upload your own photos from your PC to save into the archive.
+                Visualizing how ordinary Indian life shifted across 200+ years. Compare historical records directly with the fixed project images for each era and category.
               </p>
             </div>
 
@@ -2132,14 +2062,8 @@ export default function App() {
 
             {(() => {
               const currentVisual = EVOLUTION_VISUALS[evolutionCategory] || EVOLUTION_VISUALS.home;
-              const pastKey = `${evolutionCategory}_past`;
-              const presentKey = `${evolutionCategory}_present`;
-              
-              const hasCustomPast = Boolean(userLoadedImages[pastKey]);
-              const hasCustomPresent = Boolean(userLoadedImages[presentKey]);
-
-              const pastSrc = userLoadedImages[pastKey] || currentVisual.past.image;
-              const presentSrc = userLoadedImages[presentKey] || currentVisual.present.image;
+              const pastSrc = currentVisual.past.image;
+              const presentSrc = currentVisual.present.image;
 
               return (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
@@ -2170,47 +2094,10 @@ export default function App() {
                           }}
                         />
 
-                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none gap-2">
-                          <span className="text-[10px] font-mono text-[#F8F5EE] bg-[#08090D]/90 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30 truncate max-w-[210px]">
-                            {hasCustomPast ? 'Custom Photo (Saved)' : currentVisual.past.fileName}
+                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                          <span className="text-[10px] font-mono text-[#F8F5EE] bg-[#08090D]/90 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30 truncate max-w-[260px]">
+                            {currentVisual.past.fileName}
                           </span>
-                          
-                          <div className="pointer-events-auto flex items-center gap-1.5">
-                            {hasCustomPast && (
-                              <button
-                                onClick={() => handleRemoveSavedImage(pastKey)}
-                                title="Reset to default embedded archive photo"
-                                className="p-1.5 rounded-lg bg-[#08090D]/85 hover:bg-red-500/20 text-[#A6A094] hover:text-red-300 border border-white/10 transition-colors"
-                              >
-                                <Trash2 className="w-3.5 h-3.5" />
-                              </button>
-                            )}
-                            <label
-                              className="cursor-pointer px-2.5 py-1 rounded-lg bg-[#E5B869] hover:bg-[#D4A373] text-[#08090D] font-mono text-[11px] font-bold flex items-center gap-1.5 shadow-md transition-all active:scale-95"
-                              title="Upload and save photo from your PC"
-                            >
-                              {uploadFeedback === pastKey ? (
-                                <>
-                                  <Check className="w-3.5 h-3.5 text-green-900" />
-                                  <span>Saved!</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Upload className="w-3.5 h-3.5" />
-                                  <span>{hasCustomPast ? 'Replace' : 'Upload from PC'}</span>
-                                </>
-                              )}
-                              <input
-                                type="file"
-                                accept="image/*"
-                                className="hidden"
-                                onChange={(ev) => {
-                                  const file = ev.target.files?.[0];
-                                  if (file) handleUploadImageFromPC(file, pastKey);
-                                }}
-                              />
-                            </label>
-                          </div>
                         </div>
 
                         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent pointer-events-none" />
@@ -2218,13 +2105,7 @@ export default function App() {
                           <span className="text-[10px] font-mono uppercase tracking-wider text-[#F8F5EE] bg-[#08090D]/85 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30">
                             Embedded Archive (1800)
                           </span>
-                          {hasCustomPast && (
-                            <span className="text-[10px] font-mono text-emerald-400 bg-[#08090D]/90 backdrop-blur-md px-2 py-0.5 rounded border border-emerald-500/30 flex items-center gap-1">
-                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                              Saved in Browser
-                            </span>
-                          )}
-                        </div>
+</div>
                       </div>
 
                       <p className="text-[#D8D2C6] text-xs md:text-sm leading-relaxed mb-4">
@@ -2278,47 +2159,10 @@ export default function App() {
                           }}
                         />
 
-                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none gap-2">
-                          <span className="text-[10px] font-mono text-[#F8F5EE] bg-[#08090D]/90 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30 truncate max-w-[210px]">
-                            {hasCustomPresent ? 'Custom Photo (Saved)' : currentVisual.present.fileName}
+                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                          <span className="text-[10px] font-mono text-[#F8F5EE] bg-[#08090D]/90 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30 truncate max-w-[260px]">
+                            {currentVisual.present.fileName}
                           </span>
-                          
-                          <div className="pointer-events-auto flex items-center gap-1.5">
-                            {hasCustomPresent && (
-                              <button
-                                onClick={() => handleRemoveSavedImage(presentKey)}
-                                title="Reset to default embedded archive photo"
-                                className="p-1.5 rounded-lg bg-[#08090D]/85 hover:bg-red-500/20 text-[#A6A094] hover:text-red-300 border border-white/10 transition-colors"
-                              >
-                                <Trash2 className="w-3.5 h-3.5" />
-                              </button>
-                            )}
-                            <label
-                              className="cursor-pointer px-2.5 py-1 rounded-lg bg-[#E5B869] hover:bg-[#D4A373] text-[#08090D] font-mono text-[11px] font-bold flex items-center gap-1.5 shadow-md transition-all active:scale-95"
-                              title="Upload and save photo from your PC"
-                            >
-                              {uploadFeedback === presentKey ? (
-                                <>
-                                  <Check className="w-3.5 h-3.5 text-green-900" />
-                                  <span>Saved!</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Upload className="w-3.5 h-3.5" />
-                                  <span>{hasCustomPresent ? 'Replace' : 'Upload from PC'}</span>
-                                </>
-                              )}
-                              <input
-                                type="file"
-                                accept="image/*"
-                                className="hidden"
-                                onChange={(ev) => {
-                                  const file = ev.target.files?.[0];
-                                  if (file) handleUploadImageFromPC(file, presentKey);
-                                }}
-                              />
-                            </label>
-                          </div>
                         </div>
 
                         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent pointer-events-none" />
@@ -2326,13 +2170,7 @@ export default function App() {
                           <span className="text-[10px] font-mono uppercase tracking-wider text-[#F8F5EE] bg-[#08090D]/85 backdrop-blur-md px-2.5 py-1 rounded border border-[#E5B869]/30">
                             Embedded Archive (2026)
                           </span>
-                          {hasCustomPresent && (
-                            <span className="text-[10px] font-mono text-emerald-400 bg-[#08090D]/90 backdrop-blur-md px-2 py-0.5 rounded border border-emerald-500/30 flex items-center gap-1">
-                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                              Saved in Browser
-                            </span>
-                          )}
-                        </div>
+</div>
                       </div>
 
                       <p className="text-[#D8D2C6] text-xs md:text-sm leading-relaxed mb-4">
@@ -2478,9 +2316,7 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {STUDENT_TEAM.map((student) => {
-                const teamKey = `team_${student.id}`;
-                const customImg = userLoadedImages[teamKey];
-                const activeSrc = customImg || student.image;
+                const activeSrc = student.image;
 
                 return (
                   <div
@@ -2500,33 +2336,6 @@ export default function App() {
                           }}
                         />
 
-                        <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 z-10">
-                          {customImg && (
-                            <button
-                              onClick={() => handleRemoveSavedImage(teamKey)}
-                              title="Reset photo"
-                              className="p-1 rounded-lg bg-[#08090D]/85 hover:bg-red-500/20 text-[#A6A094] hover:text-red-300 border border-white/10 transition-colors"
-                            >
-                              <Trash2 className="w-3 h-3" />
-                            </button>
-                          )}
-                          <label
-                            className="cursor-pointer px-2 py-0.5 rounded-lg bg-[#E5B869] hover:bg-[#D4A373] text-[#08090D] font-mono text-[10px] font-bold flex items-center gap-1 shadow-md transition-all active:scale-95"
-                            title="Upload original photo from your PC"
-                          >
-                            <Upload className="w-3 h-3" />
-                            <span>{customImg ? 'Replace' : 'Upload'}</span>
-                            <input
-                              type="file"
-                              accept="image/*"
-                              className="hidden"
-                              onChange={(ev) => {
-                                const file = ev.target.files?.[0];
-                                if (file) handleUploadImageFromPC(file, teamKey);
-                              }}
-                            />
-                          </label>
-                        </div>
                       </div>
 
                       <span className="text-[10px] font-mono uppercase tracking-widest text-[#E5B869] font-bold block">
@@ -2550,9 +2359,7 @@ export default function App() {
             </div>
 
             {(() => {
-              const mentorKey = "faculty_richa";
-              const customMentorImg = userLoadedImages[mentorKey];
-              const mentorSrc = customMentorImg || FACULTY_MENTOR.image;
+              const mentorSrc = FACULTY_MENTOR.image;
 
               return (
                 <div className="bg-[#0F111A] rounded-2xl border border-[#E5B869]/30 p-8 shadow-xl max-w-3xl mx-auto w-full text-center space-y-4">
@@ -2573,33 +2380,6 @@ export default function App() {
                       }}
                     />
 
-                    <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1">
-                      <label
-                        className="cursor-pointer px-2 py-1 rounded bg-[#E5B869] text-[#08090D] font-mono text-[10px] font-bold flex items-center gap-1 shadow-md"
-                        title="Upload portrait from PC"
-                      >
-                        <Upload className="w-3 h-3" />
-                        <span>Upload</span>
-                        <input
-                          type="file"
-                          accept="image/*"
-                          className="hidden"
-                          onChange={(ev) => {
-                            const file = ev.target.files?.[0];
-                            if (file) handleUploadImageFromPC(file, mentorKey);
-                          }}
-                        />
-                      </label>
-                      {customMentorImg && (
-                        <button
-                          onClick={() => handleRemoveSavedImage(mentorKey)}
-                          className="p-1 rounded bg-red-600/80 text-white"
-                          title="Reset"
-                        >
-                          <Trash2 className="w-3 h-3" />
-                        </button>
-                      )}
-                    </div>
                   </div>
 
                   <div>
